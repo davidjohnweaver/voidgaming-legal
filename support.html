@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Void Dominion — Support</title>
+<style>
+  :root{
+    --bg:#0a0a0c;
+    --panel:#121216;
+    --panel-edge:#1f1f26;
+    --wine:#8B2252;
+    --wine-bright:#b03066;
+    --text:#e6e6ea;
+    --muted:#9a9aa6;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{
+    background:var(--bg);
+    color:var(--text);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.6;
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+  }
+  header{
+    border-bottom:1px solid var(--panel-edge);
+    padding:48px 24px 40px;
+    text-align:center;
+    background:linear-gradient(180deg,rgba(139,34,82,0.10),transparent);
+  }
+  .mark{
+    font-size:13px;
+    letter-spacing:0.32em;
+    text-transform:uppercase;
+    color:var(--wine-bright);
+    margin-bottom:14px;
+  }
+  h1{
+    font-size:34px;
+    font-weight:600;
+    letter-spacing:0.01em;
+  }
+  .sub{color:var(--muted);margin-top:10px;font-size:15px;}
+  main{
+    flex:1;
+    width:100%;
+    max-width:720px;
+    margin:0 auto;
+    padding:40px 24px 64px;
+  }
+  section{
+    background:var(--panel);
+    border:1px solid var(--panel-edge);
+    border-radius:10px;
+    padding:28px 30px;
+    margin-bottom:20px;
+  }
+  h2{
+    font-size:13px;
+    letter-spacing:0.18em;
+    text-transform:uppercase;
+    color:var(--wine-bright);
+    margin-bottom:16px;
+    font-weight:600;
+  }
+  p{color:var(--text);font-size:15px;margin-bottom:12px;}
+  p:last-child{margin-bottom:0;}
+  a{color:var(--wine-bright);text-decoration:none;border-bottom:1px solid rgba(176,48,102,0.4);}
+  a:hover{color:#d4538a;border-bottom-color:#d4538a;}
+  .contact-row{
+    display:flex;
+    align-items:baseline;
+    gap:12px;
+    padding:10px 0;
+    border-bottom:1px solid var(--panel-edge);
+  }
+  .contact-row:last-child{border-bottom:none;}
+  .label{color:var(--muted);font-size:13px;min-width:120px;text-transform:uppercase;letter-spacing:0.08em;}
+  .value{font-size:15px;}
+  details{
+    border-bottom:1px solid var(--panel-edge);
+    padding:14px 0;
+  }
+  details:last-child{border-bottom:none;}
+  summary{
+    cursor:pointer;
+    font-size:15px;
+    font-weight:500;
+    list-style:none;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+  }
+  summary::-webkit-details-marker{display:none;}
+  summary::after{content:"+";color:var(--wine-bright);font-size:20px;line-height:1;}
+  details[open] summary::after{content:"–";}
+  details p{margin-top:12px;color:var(--muted);font-size:14px;}
+  footer{
+    border-top:1px solid var(--panel-edge);
+    padding:28px 24px;
+    text-align:center;
+    color:var(--muted);
+    font-size:13px;
+  }
+  footer a{font-size:13px;}
+</style>
+</head>
+<body>
+  <header>
+    <div class="mark">Void Dominion</div>
+    <h1>Support</h1>
+    <p class="sub">Help, contact, and answers for players of Void Dominion.</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Contact Us</h2>
+      <div class="contact-row">
+        <span class="label">Email</span>
+        <span class="value"><a href="mailto:davidjohnweaver@gmail.com">davidjohnweaver@gmail.com</a></span>
+      </div>
+      <div class="contact-row">
+        <span class="label">Publisher</span>
+        <span class="value">David John Weaver, DBA Void Gaming</span>
+      </div>
+      <div class="contact-row">
+        <span class="label">Response time</span>
+        <span class="value">We aim to reply within 2–3 business days.</span>
+      </div>
+    </section>
+
+    <section>
+      <h2>Common Questions</h2>
+      <details>
+        <summary>How do I recover my progress on a new device?</summary>
+        <p>Link your account from the in-game Profile menu. Once linked, your progress and any purchases are tied to your account and restore automatically when you sign in on another device.</p>
+      </details>
+      <details>
+        <summary>I made a purchase but didn't receive it.</summary>
+        <p>Purchases are normally granted within a few moments. If an item hasn't appeared, fully close and reopen the app so it can re-validate your receipt. If it still hasn't arrived, contact us at the email above with your purchase details and we'll resolve it.</p>
+      </details>
+      <details>
+        <summary>How do I request a refund?</summary>
+        <p>Refunds for App Store purchases are handled by Apple. Visit <a href="https://reportaproblem.apple.com" target="_blank" rel="noopener">reportaproblem.apple.com</a> to submit a request. If you have questions, reach out to us and we'll help where we can.</p>
+      </details>
+      <details>
+        <summary>How do I manage or cancel a subscription?</summary>
+        <p>Subscriptions are managed through your Apple ID. On your device, open Settings, tap your name, then Subscriptions to view, change, or cancel.</p>
+      </details>
+      <details>
+        <summary>How do I delete my account or data?</summary>
+        <p>See our <a href="https://davidjohnweaver.github.io/voidgaming-legal/data-deletion.html" target="_blank" rel="noopener">data deletion page</a> for instructions, or email us and we'll process your request.</p>
+      </details>
+    </section>
+
+    <section>
+      <h2>Legal</h2>
+      <p>
+        <a href="https://davidjohnweaver.github.io/voidgaming-legal/privacy.html" target="_blank" rel="noopener">Privacy Policy</a>
+      </p>
+      <p>
+        <a href="https://davidjohnweaver.github.io/voidgaming-legal/data-deletion.html" target="_blank" rel="noopener">Data Deletion</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2026 David John Weaver, DBA Void Gaming. All rights reserved.<br>
+    <a href="mailto:davidjohnweaver@gmail.com">davidjohnweaver@gmail.com</a>
+  </footer>
+</body>
+</html>
